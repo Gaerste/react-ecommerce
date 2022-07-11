@@ -1,15 +1,14 @@
-import './App.css';
-import Products from './components/Products';
-// import Article from './components/Article';
+import Home from './Components/Home/Index';
 
+import './App.scss';
+import { CartProvider } from './Context/CartContext';
 
-function App(props) {
+function App() {
 
   return (
-      // <Article {...props}/>
-    <>
-      <Products  />
-    </>
+    <CartProvider>
+      <Home />
+    </CartProvider>
   );
 }
 

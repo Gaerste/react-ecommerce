@@ -3,12 +3,16 @@
     height: 50px;
     display: flex;
     justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    
     .buttonCartContainer {
         position: absolute;
         margin-top: 10px;
         margin-right: 20px;
         cursor: pointer;
         z-index: 2;
+        
 
         svg {
             height: 25px;
@@ -78,8 +82,8 @@
 }
 
 ::-webkit-scrollbar {
-    -webkit-appearance: none;
-
+    width: 0px;
+    height: 0px;
 }
 
 ::-webkit-scrollbar:vertical {

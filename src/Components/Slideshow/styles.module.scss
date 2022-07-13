@@ -1,0 +1,47 @@
+.root {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    
+    img {
+        width: 100vw;
+        height: 75vh;
+    }
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #000000;
+    cursor: pointer;
+    border-width: 0;
+    z-index: 10;
+    width: 25px;
+}
+
+.btnLeft {
+    left: 0;
+}
+
+.btnRight {
+    right: 0;
+}

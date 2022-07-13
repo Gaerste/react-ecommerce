@@ -6,7 +6,6 @@ import styles from './styles.module.scss'
 export const ItemCart = ({item}) => {
   const {deleteItemToCart, addItemToCart} = useContext(CartContext)
   
-  const {id} = item
   
   return (
   <div className={styles.cartItem}>
@@ -21,7 +20,7 @@ export const ItemCart = ({item}) => {
       </div>
       <div className={styles.right}>
         <div>{item.amount}</div>
-        <p>Total: ${item.amount * item.price}</p>
+        <p>Total: {item.amount * item.price}€</p>
       </div>
     </div>
   </div>

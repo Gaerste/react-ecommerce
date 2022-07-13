@@ -1,0 +1,57 @@
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-bottom: 30px;   
+    background: rgb(125,207,182);
+    background: linear-gradient(0deg, rgba(125,207,182,0.05087972689075626) 0%, rgba(125,207,182,1) 35%);    
+
+    .containerTitle {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 20px;
+        gap: 15px;
+        color: #000000;
+    }
+
+    .containerNav {
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 8rem;
+        text-decoration: none;
+    }
+
+    .liContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30vw;
+        margin-right: 5vw;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 16px;
+    }
+
+    .loginBtn {
+        height: 5vh;
+        width: 10vw;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 10px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    }
+
+    .loginBtn:hover {
+        background-color: #F79256;
+        color: #fff;
+        transition: all 0.3s;
+    }
+}

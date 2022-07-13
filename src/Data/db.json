@@ -1,0 +1,67 @@
+{
+"ProductsData": [
+{
+    "id":1,
+    "name": "6’0 MAGNET FISH EPS CLEAR CARBON SHORTBOARD",
+    "price": 100,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/09/FlowtMagnetFish_60-1.png?resize=768%2C939&ssl=1",
+    "amount": 0
+},
+{
+    "id":2,
+    "name": "6’4 MAGNET FISH EPS SHORTBOARD",
+    "price": 110,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2020/07/FlowtMagnetFish_64.png?resize=768%2C939&ssl=1",
+    "amount": 0
+},
+{
+    "id":3,
+    "name": "5’8 MAGNET FISH EPS SHORTBOARD",
+    "price": 110,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/09/FlowtMagnetFishh_58.png?resize=768%2C939&ssl=1",
+    "amount": 0
+},
+{
+    "id":4,
+    "name": "5’8 WAVE MAGNET EPS CLEAR CARBON SHORTBOARD",
+    "price": 140,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/09/EPS_WaveMagnet_ClearCarbon-5.8.png?w=720&ssl=1",
+    "amount": 0
+}, 
+{
+    "id":5,
+    "name": "6’4 WAVE MAGNET SHORTBOARD EPS CLEAR CARBON",
+    "price": 80,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/09/EPS_WaveMagnet_ClearCarbon-6.4.png?w=720&ssl=1",
+    "amount": 0
+},
+{
+    "id":6,
+    "name": "6’4 FLOW RIDER MINI MALIBU EPS",
+    "price": 55,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/05/FlowtMalibu64_Frontview.png?w=600&ssl=1",
+    "amount": 0
+},
+{
+    "id":7,
+    "name": "7’6 FLOW RIDER MALIBU EPS",
+    "price": 110,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/05/FlowtMalibu76_Frontview.png?w=600&ssl=1",
+    "amount": 0
+},
+{
+    "id":8,
+    "name": "6’0 FLOW RIDER MINI MALIBU EPS",
+    "price": 91,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/05/FlowtMalibu60_Frontview.png?w=600&ssl=1",
+    "amount": 0
+},
+{
+    "id":9,
+    "name": "8’6 FLOW RIDER MALIBU EPS",
+    "price": 99,
+    "img": "https://i0.wp.com/www.flowtsurfboards.com/wp-content/uploads/2021/05/FlowtMalibu86_Frontview.png?w=600&ssl=1",
+    "amount": 0
+}
+ ]
+}

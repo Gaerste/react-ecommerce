@@ -22,13 +22,11 @@ const Cart = () => {
   
   return (
     <div className={styles.cartContainer}>
-      <div  onClick={() =>{
-        setCartOpen(!cartOpen)
-      }} className={styles.buttonCartContainer}>
+      <div  onClick={() =>{ setCartOpen(!cartOpen)}} className={styles.buttonCartContainer}>
         
         <div className={styles.buttonCart}>
           {!cartOpen ? (
-          <svg  class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <svg  className="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="6" cy="19" r="2" />
             <circle cx="17" cy="19" r="2" />
@@ -36,7 +34,7 @@ const Cart = () => {
             <path d="M6 5l14 1l-1 7h-13" />
           </svg>
           ) : (
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-square-x" width="48" height="48" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="4" y="4" width="16" height="16" rx="2" />
             <path d="M10 10l4 4m0 -4l-4 4" />

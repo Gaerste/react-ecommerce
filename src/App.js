@@ -22,6 +22,7 @@ function App() {
         <img src={img_surf_3} alt="linus-nylund"/>
         <img src={img_surf_4} alt="nico-bhlr"/>
       </Slideshow>
+      <p className='frase'>"No te preocupes, hay millones de olas ahí afuera. Tómate tu tiempo y tu ola llegará."</p>
       <Home />
     </CartProvider>
   );

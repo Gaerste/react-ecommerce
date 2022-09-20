@@ -22,10 +22,10 @@ const Slideshow = ({ children }) => {
       }
     }else if (mode === "next") {
       if (current > children.length) {
-        setTranslateX(containerRef.current.clientWidth * (children.length + 1))
+        setTranslateX(containerRef.current.clientWidth * children.length + 1)
         setCurrent(1);
       } else {
-        setTranslateX(containerRef.current.clientWidth * (current + 1));
+        setTranslateX(containerRef.current.clientWidth * current + 1);
         setCurrent((prev) => ++prev);
       }
     }
@@ -65,6 +65,7 @@ useEffect(() => {
     }
   }
 }, [actionHandler])
+
   const slides = useMemo(() => {
     if (children.length > 1) {
       let items = Children.map(children, (child, index) => (

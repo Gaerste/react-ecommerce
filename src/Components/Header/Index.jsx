@@ -24,7 +24,7 @@ const Header = () => {
                     <li>About us</li>
                 </ul>
             </nav>
-            <button type="submit" className={styles.loginBtn}>Login</button>
+            
             </div>
         </header>
   )

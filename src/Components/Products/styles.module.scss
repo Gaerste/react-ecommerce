@@ -1,7 +1,7 @@
 .productsContainer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 0fr);
+    grid-template-columns: repeat(4, 0fr);
     grid-row-gap: 20px;
     grid-column-gap: 75px;
     justify-items: center;
@@ -15,7 +15,9 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        box-shadow: 4.6px 9.1px 9.1px hsl(0deg 0% 0% / 0.36);
+        background: url(../../Data/img/surf-logo.png) repeat-x center;
+        background-size: 35px;
         background-color: #F79256;
         padding-bottom: 15px;
 
@@ -32,11 +34,11 @@
             border: none;
             border-radius: 5px;
             padding: 5px 10px;
-            cursor: pointer;
         }
 
         button:hover {
             background-color: #7DCFB6;
+            cursor: pointer;
         }
     }
 }

@@ -20,13 +20,13 @@ const Products = () => {
    
   
    return (
-    <div className={styles.productsContainer}>
+     <div className={styles.productsContainer}>
         {products.map((product, i) => (
         <div key={i} className={styles.product}>
           <img src={product.img} alt={product.name} />
           <div>
             <p>
-              {product.name} - {product.price + ' €'}
+              {product.name} - {product.price}€ 
             </p>
           </div>
           <button onClick={() => addItemToCart(product)}>Add to cart</button>
